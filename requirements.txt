@@ -1,0 +1,6 @@
+Python 3
+gcc/g++ compiler
+
+Python libraries 
+time
+os 
