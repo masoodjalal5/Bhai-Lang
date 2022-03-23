@@ -1,9 +1,0 @@
-Step by Step Guide
-
-1: Write the program in Bhai Lang
-2: Save the file with extention ".bhai"
-3: Open command prompt and go to the directory of the file.
-4: Run the bhaipretor.py
-5: Enter the file name
-6: The "bhaipretor" will create a ".cpp" file and an executable file with ".exe"
-7: The "bhaipretor" will also execute the program on command screen.

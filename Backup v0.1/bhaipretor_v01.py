@@ -29,11 +29,11 @@ for line in lines:
 
 	# Basic conversion from bhai lang to c++
 	# standard namespace
-	line = line.replace("lughat", "#include")
+	# line = line.replace("lughat", "#include")
 	# main function
 	line = line.replace("salam bhai", "int main(){\n")
 	# return 0 and ending
-	line = line.replace("shukria bhai", "\n\n\treturn 0;\n}")
+	line = line.replace("shukria bhai", "\n\n\treturn 0;\n}") # think about return 0, it is mostly not needed and will create issues in case of header files
 	# cout
 	line = line.replace("bol bhai", "cout <")
 	
@@ -74,7 +74,13 @@ for line in lines:
 	line = line.replace("Chota ya Barabr", "<=")	# less than or equal to
 	line = line.replace("bara", ">")				# more than
 	line = line.replace("Bara ya Barabr", ">=")		# more than or equal to
-	line = line.replace("barabr nahi", "!=")		# not equal to
+	line = line.replace("Barabr nahi", "!=")		# not equal to
+
+	# Logical operators
+	if "cout" not in line:
+		line = line.replace("and", "&&")
+		line = line.replace("or", "||")
+		
 
 	# conditionals
 	# if conditional
@@ -88,6 +94,11 @@ for line in lines:
 	# Loops
 	# while loop
 	line = line.replace("jab tak bhai", "while")
+
+	# break
+	line = line.replace("bs bhai", "break")
+	# continue
+	line = line.replace("agla dekho bhai", "continue")
 
 	# for loop and do while loops
 	# ToDo: 

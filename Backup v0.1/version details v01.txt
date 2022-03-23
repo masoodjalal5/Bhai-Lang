@@ -1,0 +1,5 @@
+This was the first attempt andhad some issues which were resolved in the newer version.
+
+This version changed every value and didnt differntiate between "bol bhai"
+and other statements, which resulted in some errors.
+The new version solves that issue

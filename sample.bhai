@@ -14,18 +14,18 @@ salam bhai
 	bol bhai "character is " < ch < agla jumla bhai;
 	bol bhai "Subha he? " < subha_he < agla jumla bhai;
 
-	agr bhai (i barabr j){
+	agr bhai ( i barabr j ){
 		bol bhai "i is equal to j";
 	}
-	warna bhai (i Chota ya Barabr j){
+	warna bhai ( i Chota ya Barabr j ){
 		bol bhai "i is less than or equal to j";
 	}
-	agr nahi bhai{
+	agr nahi bhai {
 		bol bhai "yr nahi hai";
 	}
 	bol bhai "\n";
 	
-	jab tak bhai(i chota j){
+	jab tak bhai ( i chota j ){
 		bol bhai i;	
 		i++;
 	}

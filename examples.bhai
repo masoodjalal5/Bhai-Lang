@@ -1,0 +1,123 @@
+/* Program 1: Hello Bhai */
+salam bhai
+	bol bhai "Hello Bhai!";
+shukria bhai
+
+
+/* Program 2: Variables */
+salam bhai
+
+	/* integer */
+	number a ko do 5;
+	lambaNumber b ko do 10;
+	
+	/* floating point */
+	asharia f ko do 2.6;
+	dugnaAsharia g ko do 15.67;
+	
+	/* character*/
+	harf h ko do 'c';
+	
+	/* boolean*/
+	haan ya na isSahi ko do sahi;
+
+shukria bhai
+
+
+/* Program 3: Print I: Strings */
+salam bhai
+	bol bhai "Print this statement bhai";
+shukria bhai
+
+
+/* Program 4: Print II: Multiple Strings*/
+salam bhai
+	bol bhai "First statement " < "Secod statement " < "nth statement";
+shukria bhai
+
+
+/* Program 5: Variables */
+salam bhai
+	// multiple variables can be declared and defined in a single statement
+	number a ko do 5, b ko do 10;
+	
+	bol bhai "This is number a: " < a < "\n";
+	bol bhai "This is number b: " < b < agla jumla bhai;
+	
+	bol bhai "The sum is: " < a jama b;
+shukria bhai
+
+
+/* Program 6: Comments */
+salam bhai
+	/* This is a comment*/
+	
+	bol bhai "The comments will not be displayed";
+	
+shukria bhai
+
+
+/* Program 7: Conditionals I:*/
+salam bhai
+
+	number i ko do 5;
+	
+	agr bhai(i chota 10){
+		bol bhai "i is less than 10";
+	}
+	agr nahi bhai{
+		bol bhai "i is greater than 10";
+	}
+shukria bhai
+
+
+/* Program 8: Conditionals II:*/
+salam bhai
+
+	number i ko do 5;
+	
+	agr bhai(i chota 10){
+		bol bhai "i is less than 10";
+	}
+	warna bhai(i barabr 5){
+		bol bhai "i is equal to 5";
+	}
+	agr nahi bhai{
+		bol bhai "i is greater than 10";
+	}
+shukria bhai
+
+
+/* Program 9: Loops I:*/
+salam bhai
+
+	number i ko do 0;
+	
+	jab tak bhai(i chota 10){
+		bol bhai i;
+	}
+shukria bhai
+
+/* Program 10: Loops II: */
+salam bhai
+	
+	number i ko do 0;
+	jab tak bhai(sahi){
+
+	i++;
+		
+		agr bhai((i remainder 2) barabr 1){ /* skips odd values*/
+			bol bhai "continuing\n";
+			agla dekho bhai;
+		}
+		warna bhai(i bara 10){	/* closes the loop if i is greater than 10*/
+			bol bhai "closing the loop\n";
+			bs bhai;
+		}
+		agr nahi bhai{	/* if it is even the program displays it */
+			bol bhai i < " is even\n";
+		}
+	}
+shukria bhai
+
+/* END */
