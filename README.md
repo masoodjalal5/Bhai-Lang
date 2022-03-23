@@ -1,9 +1,11 @@
 # Bhai Lang
-// Description
+You are from Sub-continent and find it hard to learn C++, dont worry Bhai is here with a brand new Bhai Lang to make coding experience fun.
+
 
 ### Instructions
 - Write the Bhai program in a text editor, ```Notepad++``` is prefered
 - save the file with an extention ```.bhai```
+
 **Method 1:**
 - open command prompt in the file directory
 - type ```bhaipretor_v02.py``` and press enter to run the program.
@@ -16,6 +18,7 @@
 - when promped, enter the file name with extention.
 - the ```bhaipretor``` will create a ```.cpp``` and ```.bhai``` file in the directory.
 - the ```bhaipretor``` will also run the program and give output on the console screen.
+
 
 
 ## Requirements
@@ -31,6 +34,8 @@
 - ```os```
 
 
+
+
 # Documentation
 
 ### Hello World
@@ -40,20 +45,25 @@ salam bhai
 	bol bhai "Hello Bhai!";
 shukria bhai
 ```
-**Output**
+Output:
+
 ```Hello Bhai!```
 
-### Variables
+
+## Variables
+
 Bhai Lang supports all common variable data-types.
 
-- number			// integer
-- lambaNumber		// long
-- asharia			// float
-- dugnaAsharia		// double
-- harf				// character
-- haan ya na		// boolean
+- ```number```			// integer
+- ```lambaNumber```		// long
+- ```asharia```			// float
+- ```dugnaAsharia```		// double
+- ```harf```			// character
+- ```haan ya na```		// boolean
 
-**Boolean Values**
+
+#### Boolean Values
+
 ```haan ya na``` only accepts 2 values,
 - ```sahi``` for true
 - ```ghalat``` for false
@@ -79,46 +89,54 @@ salam bhai
 shukria bhai
 ```
 
-**Arthematic Operations**
+
+#### Arthematic Operations
+
 The variables can be manipulated using arthematic operations.
 
-- jama			// +
-- manfi			// -
-- zarb			// *
-- taqseem		// /
-- remainder		// %
+- ```jama```			// +
+- ```manfi```			// -
+- ```zarb```			// *
+- ```taqseem```			// /
+- ```remainder```		// %
 
 
-### Print/Display Output
+## Print/Display Output
 
-**Strings**
+####Strings
+
 Strings and statements can be printed on the console using ```bol bhai``` operator.
 ```
 salam bhai
 	bol bhai "Print this statement bhai";
 shukria bhai
 ```
-**Output**
+Output:
 ```
 Print this statement bhai
 ```
 
-**Multiple Strings**
+
+#### Multiple Strings
+
 Multiple strings can be separated using **separation operator** ```<```
 ```
 salam bhai
 	bol bhai "First statement " < "Secod statement " < "nth statement";
 shukria bhai
 ```
-**Output**
+Output:
 ```
 First statement Secod statement nth Statement
 ```
 
-**Newline**
+#### Newline
+
 You can print the statemnt on newline using ```\n``` sequence or by using ```agla jumla bhai``` 
 
-**Variables**
+
+#### Variables
+
 Variables and variable operations can be performed and displayed.
 ```
 salam bhai
@@ -131,14 +149,16 @@ salam bhai
 	bol bhai "The sum is: " < a jama b;
 shukria bhai
 ```
-**Output**
+Output:
 ```
 This is number a: 5
 This is number b: 10
 The sum is: 15
 ```
 
-**Comments**
+
+#### Comments
+
 Bhai Language supports comments which are enclosed between```/*``` and ```*/```.
 ```
 salam bhai
@@ -148,9 +168,11 @@ salam bhai
 shukria bhai
 ```
 
-### Conditionals
 
-**Comparison Operators**
+## Conditionals
+
+#### Comparison Operators
+
 Comparison operators are used to compare values and find the relation between them
 The common comparison operators in bhai lang are
 
@@ -161,7 +183,10 @@ The common comparison operators in bhai lang are
 - ```Bara ya Barabr```		// greater than or equal to
 - ```Barabr nahi```			// not equal to
 
-**```agr bhai```-```agr nahi bhai``` Conditional**
+
+
+#### ```agr bhai```-```agr nahi bhai``` Conditional
+
 Bhai Lang its own if-else statement which execute the block if ```agr bhai``` is ```sahi``` and will execute ```agar nahi bhai``` if is ```ghalat```
 ```
 salam bhai
@@ -176,12 +201,14 @@ salam bhai
 	}
 shukria bhai
 ```
-**Output**
+Output:
 ```
 i is less than 10
 ```
 
-**```agr bhai```-```warna bhai```-```agr nahi bhai``` Conditional**
+
+#### ```agr bhai```-```warna bhai```-```agr nahi bhai``` Conditional
+
 If there are multiple conditions that must be compared, than ```warna bhai``` can be used as many times as needed
 ```
 salam bhai
@@ -199,7 +226,7 @@ salam bhai
 	}
 shukria bhai
 ```
-**Output**
+Output:
 ```
 i is less than 10
 ```
@@ -208,7 +235,10 @@ If there are multiple conditions they can be separated by using ```and``` and ``
 - ```and```		// The block will execute if both or all the conditions are ```sahi```
 - ```or```		// The block will execute if one of the condition is ```sahi``` 
 
-### Loops
+
+
+## Loops
+
 The ```jab tak bhai``` loop will run as long as the condition is ```sahi``` and stop when the condition becomes ```ghalat```
 ```
 salam bhai
@@ -220,12 +250,14 @@ salam bhai
 	}
 shukria bhai
 ```
-**Output**
+Output:
 ```
 0123456789
 ```
 
-**```bs bhai``` and ```agla dekho bhai```**
+
+#### ```bs bhai``` and ```agla dekho bhai```
+
 the ```bs bhai``` operator will stop the ```jab tak bhai``` loop,
 the loop will go to the next iteration when it reaches ```agla dekho bhai``` operator.
 ```
@@ -250,7 +282,7 @@ salam bhai
 	}
 shukria bhai
 ```
-**Output**
+Output:
 ```
 continuing
 2 is even
