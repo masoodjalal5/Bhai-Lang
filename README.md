@@ -22,16 +22,9 @@ You are from Sub-continent and find it hard to learn C++, dont worry Bhai is her
 
 
 ## Requirements
-**Languages**
-- ```Python 3``` or newer
-- ```C++ 11``` or newer
 
-**Compilers**
-- ```g++``` compiler for C++
-
-**Python Libraries**
-- ```time```
-- ```os```
+- ```Python ``` or newer. [Download](https://www.python.org/downloads/) 
+- ```g++``` compiler for C++. [Download](https://sourceforge.net/projects/mingw/)
 
 
 
