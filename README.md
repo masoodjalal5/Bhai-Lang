@@ -96,7 +96,7 @@ The variables can be manipulated using arthematic operations.
 
 ## Print/Display Output
 
-####Strings
+#### Strings
 
 Strings and statements can be printed on the console using ```bol bhai``` operator.
 ```
@@ -259,7 +259,7 @@ salam bhai
 	number i ko do 0;
 	jab tak bhai(sahi){
 
-	i++;
+		i++;
 		
 		agr bhai((i remainder 2) barabr 1){ /* skips odd values */
 			bol bhai "continuing\n";
